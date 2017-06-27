@@ -1,0 +1,13 @@
+{
+  "database": {
+    "products": {
+      "host": "localhost",
+      "port": "27017",
+      "name": "node_mcs_products",
+      "security": false,
+      "user": null,
+      "password": null
+    }
+  },
+  "port": 3000
+}

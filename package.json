@@ -1,0 +1,30 @@
+{
+  "name": "node_mcs",
+  "version": "0.0.1",
+  "description": "Node architecture Model-Controller-Service (MCS)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nestorvanz/node_mcs.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Expess",
+    "MongoDB",
+    "Mongoose"
+  ],
+  "author": "Nestor Vanz <vanz.mailwork@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestorvanz/node_mcs/issues"
+  },
+  "homepage": "https://github.com/nestorvanz/node_mcs#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  }
+}
