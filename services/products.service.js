@@ -28,8 +28,8 @@ dbConnection.on('open', function() {
   console.log(`Connected to database: ${connectionName} > ${database.name}@${database.host}`);
 });
 
-const ProductsContorller = require('../controllers/products.controller.js');
-let productsController = new ProductsContorller(dbConnection);
+const ProductsController = require('../controllers/products.controller.js');
+let productsController = new ProductsController(dbConnection);
 
 router.post(route, addProduct);
 router.get(route, getProducts);
