@@ -1,8 +1,10 @@
+"use strict";
 const ENV = process.env.NODE_ENV || 'develop';
 const CONFIG = require('../config/'+ ENV +'.json');
 const router = require('express').Router();
 const mongoose = require('mongoose');
 const route = '/products';
+
 
 var database = CONFIG.database.products;
 var dbConnection;

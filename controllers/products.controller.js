@@ -1,3 +1,4 @@
+"use strict";
 module.exports = function( dbConnection ) {
   require('../models/product.model.js');
   var Product = dbConnection.model('Product');
@@ -11,7 +12,7 @@ module.exports = function( dbConnection ) {
 
   return controller;
 
-  function add(data = {}, next) {
+  function add(data , next) {
     // Validaciones
     let error, errors = [];
     if (error = validateName(data.name)) {
